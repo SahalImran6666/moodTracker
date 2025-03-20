@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Mood Tracker</h1>
+    <div class="mood-buttons" id="moodButtons">
+        <button style="background: #ffcc00;" onclick="logMood('😊')">😊</button>
+        <button style="background: #ff4444;" onclick="logMood('😢')">😢</button>
+        <button style="background: #aaaaaa;" onclick="logMood('😐')">😐</button>
+        <button style="background: #66cc66;" onclick="logMood('🤩')">🤩</button>
+    </div>
+
+    <div class="new-mood-container">
+        <input type="text" id="newMood" placeholder="Enter mood emoji">
+        <button class="add-mood-btn" onclick="addNewMood()">Create a New Mood</button>
+    </div>
+
+    <div class="mood-log">
+        <h2>Past Moods</h2>
+        <ul id="moodList"></ul>
+    </div>
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>

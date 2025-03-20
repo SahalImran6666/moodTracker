@@ -1,0 +1,63 @@
+body {
+  font-family: "Arial", sans-serif;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: #333;
+}
+.mood-buttons button {
+  font-size: 24px;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mood-buttons button:hover {
+  transform: scale(1.1);
+}
+.mood-log {
+  margin-top: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+li:last-child {
+  border-bottom: none;
+}
+.new-mood-container {
+  margin-top: 20px;
+}
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+.add-mood-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.add-mood-btn:hover {
+  background-color: #0056b3;
+}
